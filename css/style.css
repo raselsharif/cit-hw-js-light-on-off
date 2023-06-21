@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login {
+    background: url(../images/Login\ Page\ design\ \(Community\)\ \(Copy\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 71px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input {
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.user,
+.pass {
+    width: 300px;
+    padding: 12px 12px 12px 50px;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+::placeholder {
+    color: #ffffff80;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.input{
+    position: relative;
+}
+.input i{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.eye{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: flex;
+    gap: 2px;
+    color: #fff;
+}
+.submit {
+    width: 300px;
+    padding: 12px 0;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #2148C0;
+    background: #fff;
+}
+
+form a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    text-align: right;
+    margin-top: -10px;
+}
